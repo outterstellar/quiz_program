@@ -1,5 +1,6 @@
 import operator
 import random
+import emoji
 answer = 0
 question = "Let's Start To The Quiz"
 
@@ -29,7 +30,7 @@ while True:
         inanswer = input("Your Answer:")
         try:
             if float(inanswer) == float(answer):
-                print("God Damn, Right!")
+                print("---------------------- God Damn, Right! ----------------------")
                 print(str(answer))
                 question = createQuestion()
             else:
